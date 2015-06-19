@@ -978,7 +978,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0700;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					0B6BE74719FFD3B900762101 = {
@@ -1457,8 +1457,10 @@
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				MODULEMAP_PRIVATE_FILE = module.private.modulemap;
 			};
 			name = GCOV;
 		};
@@ -1479,8 +1481,10 @@
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				MODULEMAP_PRIVATE_FILE = module.private.modulemap;
 			};
 			name = Profile;
 		};
@@ -1501,8 +1505,10 @@
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				MODULEMAP_PRIVATE_FILE = module.private.modulemap;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -1513,8 +1519,10 @@
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				MODULEMAP_PRIVATE_FILE = module.private.modulemap;
 			};
 			name = Release;
 		};

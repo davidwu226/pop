@@ -1,0 +1,4 @@
+explicit module pop.Private {
+    header "POPAnimatorPrivate.h"
+    header "POPAnimationPrivate.h"
+}
